@@ -5,6 +5,8 @@
   --hero-backg-cl: #2f303a;
   --fill-in-color: #ffffff;
   --opacity-color: rgba(255, 255, 255, 0.6);
+  --wwd-backgr: #f5f4fa;
+  --features-color: #e5e5e5;
 }
 
 body {
@@ -31,9 +33,16 @@ body {
 .link-type {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
+}
+
+.link-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .map-link {
@@ -58,6 +67,10 @@ body {
 
 .web-wpart {
   color: var(--fill-in-color);
+}
+
+.topline-box {
+  background-color: var(--fill-in-color);
 }
 
 .hero-header {
@@ -85,14 +98,16 @@ body {
 }
 
 .hero-button:hover {
-  color: var(--header-color);
+  color: var(--hover-color);
   background-color: var(--fill-in-color);
 }
 
-.hero {
+.hero,
+.footer-bg {
   background-color: var(--hero-backg-cl);
 }
-.topline-box {
+
+.features {
   background-color: var(--fill-in-color);
 }
 
@@ -105,15 +120,37 @@ body {
   color: var(--header-color);
 }
 
-.features {
+.what-we-do {
   background-color: var(--fill-in-color);
 }
 
-.wwd-header {
+.wwd-header,
+.our-team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--hero-backg-cl);
+}
+
+.our-team-bg {
+  background-color: var(--wwd-backgr);
+}
+
+.team-memb-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+
+.team-memb-role {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
