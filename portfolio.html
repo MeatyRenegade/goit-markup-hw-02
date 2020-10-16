@@ -8,135 +8,181 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
-      <nav>
-        <a href="/"><span>Web</span>Studio</a>
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#Contacts">Контакты</a></li>
+      <div class="topline-box">
+        <nav>
+          <a class="web-logo" href="/"
+            ><span class="web-part">Web</span>Studio</a
+          >
+          <ul class="no-dots">
+            <li><a class="link link-type" href="./index.html">Студия</a></li>
+            <li>
+              <a class="link link-type" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li><a class="link link-type" href="#Contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="no-dots">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Фильтры -->
       <section>
         <nav>
-          <button>Все</button>
-          <button>Веб-сайты</button>
-          <button>Приложения</button>
-          <button>Дизайн</button>
-          <button>Маркетинг</button>
+          <button class="filter-button">Все</button>
+          <button class="filter-button">Веб-сайты</button>
+          <button class="filter-button">Приложения</button>
+          <button class="filter-button">Дизайн</button>
+          <button class="filter-button">Маркетинг</button>
         </nav>
       </section>
       <!-- Портфолио -->
       <section>
-        <ul>
+        <ul class="no-dots">
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio1.jpg"
-                width="370"
-                height="294"
-                alt="Технокряк"
-            /></a>
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio1.jpg"
+                  width="370"
+                  height="294"
+                  alt="Технокряк"
+              /></a>
+              <h2 class="ourworks-header">Технокряк</h2>
+              <p>Веб-сайт</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio2.jpg"
-                width="370"
-                height="294"
-                alt="Постер New Orlean vs Golden Star"
-            /></a>
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio2.jpg"
+                  width="370"
+                  height="294"
+                  alt="Постер New Orlean vs Golden Star"
+              /></a>
+              <h2 class="ourworks-header">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p>Дизайн</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio3.jpg"
-                width="370"
-                height="294"
-                alt="Ресторан Seafood"
-            /></a>
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio3.jpg"
+                  width="370"
+                  height="294"
+                  alt="Ресторан Seafood"
+              /></a>
+              <h2 class="ourworks-header">
+                Ресторан <span lang="en">Seafood</span>
+              </h2>
+              <p>Приложение</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio4.jpg"
-                width="370"
-                height="294"
-                alt="Проект Prime"
-            /></a>
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio4.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект Prime"
+              /></a>
+              <h2 class="ourworks-header">
+                Проект <span lang="en">Prime</span>
+              </h2>
+              <p>Маркетинг</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio5.jpg"
-                width="370"
-                height="294"
-                alt="Проект Boxes"
-            /></a>
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio5.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект Boxes"
+              /></a>
+              <h2 class="ourworks-header">
+                Проект <span lang="en">Boxes</span>
+              </h2>
+              <p>Приложение</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio6.jpg"
-                width="370"
-                height="294"
-                alt="Inspiration has no Borders"
-            /></a>
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio6.jpg"
+                  width="370"
+                  height="294"
+                  alt="Inspiration has no Borders"
+              /></a>
+              <h2 lang="en" class="ourworks-header">
+                Inspiration has no Borders
+              </h2>
+              <p>Веб-сайт</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio7.jpg"
-                width="370"
-                height="294"
-                alt="Издание Limited Edition"
-            /></a>
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio7.jpg"
+                  width="370"
+                  height="294"
+                  alt="Издание Limited Edition"
+              /></a>
+              <h2 class="ourworks-header">
+                Издание <span lang="en">Edition</span>
+              </h2>
+              <p>Дизайн</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio8.jpg"
-                width="370"
-                height="294"
-                alt="Проект LAB"
-            /></a>
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio8.jpg"
+                  width="370"
+                  height="294"
+                  alt="Проект LAB"
+              /></a>
+              <h2 class="ourworks-header">Проект <span lang="en">LAB</span></h2>
+              <p>Маркетинг</p>
+            </div>
           </li>
           <li>
-            <a href="">
-              <img
-                src="./img/portfolio9.jpg"
-                width="370"
-                height="294"
-                alt="Growing Business"
-            /></a>
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+            <div class="ourworks-box">
+              <a href="">
+                <img
+                  src="./img/portfolio9.jpg"
+                  width="370"
+                  height="294"
+                  alt="Growing Business"
+              /></a>
+              <h2 lang="en" class="ourworks-header">Growing Business</h2>
+              <p>Приложение</p>
+            </div>
           </li>
         </ul>
       </section>
@@ -144,17 +190,27 @@
     <!-- Подвал -->
     <footer>
       <section>
-        <a href="/"><span>Web</span>Studio</a>
-        <address id="Contacts">
-          <a
-            href="https://goo.gl/maps/yimsJbPZ72SQHya66"
-            target="_blank"
-            rel="noreferrer noopener"
-            >г. Киев, пр-т Леси Украинки, 26</a
+        <div class="footer-bg">
+          <a class="web-logo" href="/"
+            ><span class="web-part">Web</span
+            ><span class="web-wpart">Studio</span></a
           >
-          <a href="mailto:info@example.com">info@example.com</a>
-          <a href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+          <address id="Contacts">
+            <a
+              class="link map-link"
+              href="https://goo.gl/maps/yimsJbPZ72SQHya66"
+              target="_blank"
+              rel="noreferrer noopener"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+            <a class="link link-footer" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="link link-footer" href="tel:+380991111111"
+              >+38 099 111 11 11</a
+            >
+          </address>
+        </div>
       </section>
     </footer>
   </body>

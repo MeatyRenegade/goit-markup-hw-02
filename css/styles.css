@@ -21,7 +21,6 @@ body {
 
 .link {
   text-decoration: none;
-  font-style: normal;
   color: var(--hero-backg-cl);
 }
 
@@ -98,8 +97,27 @@ body {
 }
 
 .hero-button:hover {
-  color: var(--hover-color);
-  background-color: var(--fill-in-color);
+  color: var(--header-color);
+  background-color: var(--wwd-backgr);
+}
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-style: none;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  color: var(--header-color);
+}
+
+.filter-button:hover {
+  border-radius: 4px;
+  color: var(--fill-in-color);
+  background-color: var(--hover-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .hero,
@@ -138,6 +156,17 @@ body {
   background-color: var(--wwd-backgr);
 }
 
+.team-memb-box {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+  background: var(--fill-in-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team-memb-name {
   font-weight: 500;
   font-size: 16px;
@@ -151,6 +180,30 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.ourworks-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+
+.ourworks-box {
+  width: 370px;
+  height: 404px;
+  left: 215px;
+  top: 696px;
+  border: 1px solid var(--wwd-backgr);
+  box-sizing: border-box;
+}
+
+.ourworks-desc {
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
