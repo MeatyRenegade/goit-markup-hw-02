@@ -21,12 +21,19 @@ body {
 
 .link {
   text-decoration: none;
-  color: var(--hero-backg-cl);
 }
 
 .link:hover,
 .link:focus {
   color: var(--hover-color);
+}
+
+.link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 .link-type {
@@ -38,6 +45,7 @@ body {
 }
 
 .link-footer {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -45,6 +53,7 @@ body {
 }
 
 .map-link {
+  font-style: normal;
   color: var(--fill-in-color);
 }
 
