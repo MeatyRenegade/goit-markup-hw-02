@@ -9,9 +9,14 @@
   --features-color: #e5e5e5;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", "sans-serif";
   font-style: normal;
+  width: 1600px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -215,4 +220,10 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
