@@ -14,14 +14,14 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Верхняя линия -->
     <header>
-      <div class="topline-box container page-header">
+      <div class="topline-box container">
         <nav>
           <a class="web-logo" href="./index.html"
             ><span class="web-part">Web</span><span>Studio</span></a
@@ -51,14 +51,16 @@
     <main>
       <!-- Шапка -->
       <section>
-        <div class="hero container">
-          <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="hero">
+          <div class="hero-main-text">
+            <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-button" type="button">Заказать услугу</button>
+          </div>
         </div>
       </section>
       <!-- Особенности -->
       <section>
-        <div class="features container">
+        <div class="features">
           <ul class="no-dots">
             <li>
               <h3 class="feature-header">Внимание к деталям</h3>
@@ -93,7 +95,7 @@
       </section>
       <!-- Чем мы занимаемся -->
       <section>
-        <div class="what-we-do container">
+        <div class="what-we-do">
           <h2 class="wwd-header">Чем мы занимаемся</h2>
           <ul class="no-dots">
             <li>
@@ -120,7 +122,7 @@
       </section>
       <!-- Наша команда -->
       <section>
-        <div class="our-team-bg container">
+        <div class="our-team-bg">
           <h2 class="our-team-header">Наша команда</h2>
           <ul class="no-dots">
             <li>
@@ -178,25 +180,33 @@
     <!-- Подвал -->
     <footer>
       <section>
-        <div class="footer-bg container">
-          <a class="web-logo" href="./index.html"
-            ><span class="web-part">Web</span
-            ><span class="web-wpart">Studio</span></a
-          >
+        <div class="footer-bg">
+          <div class="logo-box">
+            <a class="web-logo" href="./index.html"
+              ><span class="web-part">Web</span
+              ><span class="web-wpart">Studio</span></a
+            >
+          </div>
           <address id="Contacts">
-            <a
-              class="link map-link"
-              href="https://goo.gl/maps/yimsJbPZ72SQHya66"
-              target="_blank"
-              rel="noreferrer noopener"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-            <a class="link link-footer" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-            <a class="link link-footer" href="tel:+380991111111"
-              >+38 099 111 11 11</a
-            >
+            <div class="address-box">
+              <div class="map-link-box">
+                <a
+                  class="link map-link"
+                  href="https://goo.gl/maps/yimsJbPZ72SQHya66"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </div>
+              <div class="maillink-box">
+                <a class="link link-footer" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </div>
+              <a class="link link-footer" href="tel:+380991111111"
+                >+38 099 111 11 11</a
+              >
+            </div>
           </address>
         </div>
       </section>
